@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+    display: none;
+}
+.icon {
+    width: 18px;
+    height: 18px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.wrap {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputWrap{
+    position: relative;
+    display: flex;
+}
+.wrap input{
+    font-size: 18px;
+    height: 41px;
+    width: 528px;
+    border: 2px solid rgb(196,199,206);
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 18px;
+}
+.wrap input:hover{
+    border:2px solid rgb(167,170,181);
+    border-radius: 10px 0px 0px 10px;
+}
+.wrap input:focus{
+    outline: none;
+    border:2px solid rgb(78,110,242);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.wrap svg{
+    position: absolute;
+    right: 126px;
+    top: 13px;;
+}
+.wrap button{
+    background: rgb(78,110,242);
+    float: left;
+    border: none;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    width:107px;
+    height: 45px;
+    font-size: 17px;
+    position: relative;
+    left: -2px;
+}
+.wrap button:hover{
+    cursor: pointer;
+    background:rgb(70,98,217);
+    
+}
+.wrap button:focus{
+    outline: none;
+
+    
+}
